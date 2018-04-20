@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 /**
  * created by zsj in 16:53 2018/4/20
- * description:
+ * description: 丑数，因子只有2,3,5。1是第一个丑数，求第n个丑数。思路dp。res数组中每个数乘上2,3,5比较大小，最小的放在
+ * 结果数组res中，返回第n个数。
  **/
 public class lee264 {
 
