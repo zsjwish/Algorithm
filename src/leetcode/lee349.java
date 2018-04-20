@@ -12,12 +12,9 @@ public class lee349 {
     public static void main(String[] args) {
         int[] A = new int[] {1,2,2,1};
         int[] B = new int[] {2,2};
-        Solution349 solution349 = new Solution349();
-        solution349.intersection(A, B);
+        lee349 lee349 = new lee349();
+        lee349.intersection(A, B);
     }
-
-}
-class Solution349 {
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1 == null && nums2 == null) {
             return null;
