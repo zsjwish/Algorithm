@@ -11,10 +11,8 @@ public class lee338 {
 
     public static void main(String[] args) {
         lee338 lee338 = new lee338();
-        lee338.countBits(0);
+        lee338.countBits1(5);
     }
-
-
     public int[] countBits(int num) {
         if (num < 0) {
             return null;
@@ -33,6 +31,22 @@ public class lee338 {
             for (int j = 0; i + Math.pow(2, j) <= num; j++) {
                 dp[i + (int)Math.pow(2, j)] = Math.min(dp[i + (int)Math.pow(2, j)], dp[i] + 1);
             }
+        }
+        System.out.println(Arrays.toString(dp));
+        return dp;
+    }
+    //一种更简单的思路，也是dp,一个数的1的个数是它右移一位1的个数加上末尾是否是1。
+    //dp[i] = dp[i>>1] + i % 2;因为i就是存放的数字为i的包含的1的个数。
+    public int[] countBits1(int num) {
+        if (num < 0) {
+            return null;
+        }
+        int[] dp = new int[num + 1];
+        if (num == 0) {
+            return dp;
+        }
+        for (int i = 1; i <= num; i++) {
+            dp[i] = dp[i>>1] + i%2;
         }
         System.out.println(Arrays.toString(dp));
         return dp;
