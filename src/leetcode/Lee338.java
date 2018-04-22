@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 /**
  * created by zsj in 0:16 2018/4/21
- * description:求出一个数的二进制有多少个1，感觉和平方数之和类似（lee279)。只是这个是2的n次方，平方数是n的平方
+ * description:求出一个数的二进制有多少个1，感觉和平方数之和类似（Lee279)。只是这个是2的n次方，平方数是n的平方
  * 所以思路类似
  **/
-public class lee338 {
+public class Lee338 {
 
     public static void main(String[] args) {
-        lee338 lee338 = new lee338();
+        Lee338 lee338 = new Lee338();
         lee338.countBits1(5);
     }
     public int[] countBits(int num) {

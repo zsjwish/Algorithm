@@ -6,17 +6,17 @@ package leetcode;
  * 因为这样就只会dp一次，如果放在sunRange函数中每次调用的时候就会dp一次会造成错误。dp即第i个数是前一个数加上当前数，
  * 即数组中第i个数存放0-i数的和，然后用num[j] - num[i-1]就是结果，如果i==0,则返回num[j]
  * **/
-public class lee303 {
+public class Lee303 {
 
     public static void main(String[] args) {
-        lee303 lee303 = new lee303(new int[]{-2, 0, 3, -5, 2, -1});
+        Lee303 lee303 = new Lee303(new int[]{-2, 0, 3, -5, 2, -1});
         lee303.sumRange(2,5);
         lee303.sumRange(0,5);
     }
 
     private int[] data;
 
-    public lee303(int[] nums) {
+    public Lee303(int[] nums) {
         this.data = nums;
         int length = data.length;
         for (int i = 1; i < length; i++) {

@@ -7,10 +7,10 @@ import java.util.Arrays;
  * description: 获取数组中连续和最大的子序列和他们的最大和。使用dp。
  * 代码中还在判断Math.max的时候讲子序列数组的start和end记录下来，并且截取子数组。
  **/
-public class lee53 {
+public class Lee53 {
     public static void main(String[] args) {
         int[] A = new int[]{-2,1,-3,4,-1,2,1,-5,4};
-        lee53 lee53 = new lee53();
+        Lee53 lee53 = new Lee53();
         lee53.maxSubArray(A);
     }
 

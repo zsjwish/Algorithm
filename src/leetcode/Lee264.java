@@ -7,10 +7,10 @@ import java.util.Arrays;
  * description: 丑数，因子只有2,3,5。1是第一个丑数，求第n个丑数。思路dp。res数组中每个数乘上2,3,5比较大小，最小的放在
  * 结果数组res中，返回第n个数。
  **/
-public class lee264 {
+public class Lee264 {
 
     public static void main(String[] args) {
-        lee264 lee264 = new lee264();
+        Lee264 lee264 = new Lee264();
         lee264.nthUglyNumber(15);
     }
 

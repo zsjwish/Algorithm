@@ -8,9 +8,9 @@ import java.util.List;
  * description:找出一个字符串的所有回文子串，在以某个字符为中心扩展的时候讲回文子串写到一个list中，然后返回，
  * 返回后使用一个list添加所有的回文子串的list。最后可以返回list或者list的长度。
  **/
-public class lee647 {
+public class Lee647 {
     public static void main(String[] args) {
-        lee647 lee647 = new lee647();
+        Lee647 lee647 = new Lee647();
         lee647.countSubstrings("abcc");
     }
 

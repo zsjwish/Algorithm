@@ -10,9 +10,9 @@ import java.util.Arrays;
  * i+j*j<=n，从前往后更新。dp[i+j*j] = Math.min(dp[i]+1,dp[i+j*j]);
  * 最后返回dp[n];
  **/
-public class lee279 {
+public class Lee279 {
     public static void main(String[] args) {
-        lee279 lee279 = new lee279();
+        Lee279 lee279 = new Lee279();
         lee279.numSquares(15);
     }
     public int numSquares(int n) {
