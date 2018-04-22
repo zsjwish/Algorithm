@@ -21,12 +21,13 @@ public class InsertSort {
         int length = nums.length;
         //升序
         for (int i = 1; i < length; i++) {
-            while (i >= 1 && nums[i] < nums[i-1]) {
-                int tmp = nums[i];
-                nums[i] = nums[i-1];
-                nums[i-1] = tmp;
-                i--;
+            int tmp = nums[i];
+            int j = i-1;
+            while (j >=0 && nums[j] > tmp) {
+                nums[j+1] = nums[j];
+                j--;
             }
+            nums[j+1] = tmp;
         }
         System.out.println(Arrays.toString(nums));
         return nums;
