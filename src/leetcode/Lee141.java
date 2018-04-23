@@ -8,6 +8,21 @@ package leetcode;
 public class Lee141 {
 
     public static void main(String[] args) {
+        ListNode one = new ListNode(3);
+        ListNode two = new ListNode(4);
+        ListNode three = new ListNode(5);
+        ListNode four = new ListNode(6);
+        ListNode five = new ListNode(7);
+        ListNode six = new ListNode(8);
+        ListNode seven = new ListNode(9);
+        one.next = two;
+        two.next = three;
+        three.next = four;
+        four.next = five;
+        five.next = three;
+
+        Lee141 lee141 = new Lee141();
+        System.out.println(lee141.hasCycle(one));
 
     }
     //判断单链表时候有环
@@ -28,13 +43,3 @@ public class Lee141 {
     }
 
 }
-
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
- }
