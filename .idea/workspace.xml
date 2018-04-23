@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88422a29-6c9c-4151-a86e-344d276422c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="88422a29-6c9c-4151-a86e-344d276422c4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +15,7 @@
       <file leaf-file-name="Lee784.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Lee784.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="425">
               <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -29,7 +27,7 @@
       <file leaf-file-name="Lee350.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Lee350.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="475">
               <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,7 +49,7 @@
       <file leaf-file-name="Lee345.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Lee345.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="625">
               <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
@@ -71,7 +69,7 @@
       <file leaf-file-name="Lee141.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Lee141.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
+            <state relative-caret-position="500">
               <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding />
             </state>
@@ -81,9 +79,61 @@
       <file leaf-file-name="HasCycle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/list/HasCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="-591">
               <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <marker date="1524473481215" expanded="true" signature="63912:63954" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="63912:63972" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="63912:63985" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="63912:64000" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64035:66528" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64048:66513" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64102:64397" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64121:64382" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64184:64362" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64224:64328" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64245:64306" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64447:64774" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64466:64759" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64561:64739" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64601:64705" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64622:64683" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64825:65090" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64844:65075" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64877:65055" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64917:65021" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="64938:64999" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65133:65439" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65152:65424" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65226:65404" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65266:65370" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65287:65348" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65490:65841" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65509:65826" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65589:65806" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65629:65772" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65650:65750" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65876:66182" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65895:66167" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="65969:66147" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66009:66113" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66030:66091" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66234:66499" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66253:66484" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66286:66464" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66326:66430" ph="..." />
+                <marker date="1524473481215" expanded="true" signature="66347:66408" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/ListNode.java" />
         <option value="$PROJECT_DIR$/src/list/HasCycle.java" />
         <option value="$PROJECT_DIR$/src/wish" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -193,6 +244,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,15 +257,29 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -465,11 +533,12 @@
       <workItem from="1524277821379" duration="20189000" />
       <workItem from="1524364255846" duration="24918000" />
       <workItem from="1524449873312" duration="8596000" />
+      <workItem from="1524473276952" duration="236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75597000" />
+    <option name="totallyTimeSpent" value="75833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -497,33 +566,11 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33712983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="312" width="1920" height="406" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33712983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="312" width="1920" height="406" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33143508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20922747" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,13 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Lee344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Lee283.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -970,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,7 +1023,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Lee784.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="425">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -994,7 +1033,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Lee350.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="475">
           <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1012,7 +1051,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Lee345.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="625">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
@@ -1036,15 +1075,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Lee141.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
+        <state relative-caret-position="500">
           <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/HasCycle.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <marker date="1524473481215" expanded="true" signature="63912:63954" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="63912:63972" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="63912:63985" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="63912:64000" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64035:66528" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64048:66513" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64102:64397" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64121:64382" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64184:64362" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64224:64328" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64245:64306" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64447:64774" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64466:64759" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64561:64739" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64601:64705" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64622:64683" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64825:65090" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64844:65075" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64877:65055" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64917:65021" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="64938:64999" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65133:65439" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65152:65424" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65226:65404" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65266:65370" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65287:65348" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65490:65841" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65509:65826" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65589:65806" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65629:65772" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65650:65750" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65876:66182" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65895:66167" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="65969:66147" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66009:66113" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66030:66091" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66234:66499" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66253:66484" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66286:66464" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66326:66430" ph="..." />
+            <marker date="1524473481215" expanded="true" signature="66347:66408" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list/HasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
