@@ -4,7 +4,7 @@ import leetcode.ListNode;
 
 /**
  * created by zsj in 18:36 2018/4/25
- * description:
+ * description:删除单链表倒数第N个节点
  **/
 public class DeleteLastNthListNode {
 
