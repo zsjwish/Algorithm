@@ -11,4 +11,11 @@ public class ListNode {
         val = x;
         next = null;
     }
+    public static void printListNode(ListNode first) {
+        while (first != null) {
+            System.out.print(first.val + "==>");
+            first = first.next;
+        }
+        System.out.println("null");
+    }
 }

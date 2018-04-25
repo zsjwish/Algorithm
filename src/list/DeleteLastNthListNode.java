@@ -2,11 +2,11 @@ package list;
 
 import leetcode.ListNode;
 
- /**
- * created by zsj in 17:28 2018/4/25
- * description:找到单链表倒数第N个节点,使用双指针，一个先走N步，然后两个一起走到后一个到最后，则前一个就是倒数第N个节点。
+/**
+ * created by zsj in 18:36 2018/4/25
+ * description:
  **/
-public class LastNthListNode {
+public class DeleteLastNthListNode {
 
     public static void main(String[] args) {
         ListNode one = new ListNode(1);
@@ -22,17 +22,29 @@ public class LastNthListNode {
         four.next = five;
         five.next = six;
         six.next = seven;
-        LastNthListNode lastNthListNode = new LastNthListNode();
-        lastNthListNode.lastNListNode(one, 7);
+        DeleteLastNthListNode deleteLastNthListNode = new DeleteLastNthListNode();
+
+        deleteLastNthListNode.getLastNthListNode(one, 7);
+        deleteLastNthListNode.deleteLastNthListNode(one, 4);
+
     }
 
-    public ListNode lastNListNode(ListNode head, int n) {
+    LastNthListNode lastNthListNode;
+    public ListNode deleteLastNthListNode(ListNode head, int n) {
+        lastNthListNode = new LastNthListNode();
+        ListNode delete = lastNthListNode.lastNListNode(head, n+1);
+        delete.next = delete.next.next;
+        ListNode.printListNode(head);
+        return head;
+    }
+
+    public ListNode getLastNthListNode(ListNode head, int n) {
         if (head == null) {
             return head;
         }
         ListNode first = head;
         ListNode last = head;
-        for (int i = n - 1; i > 0; i--) {
+        for (int i = 0; i < n - 1; i++) {
             last = last.next;
             if (last == null) {
                 System.out.println("没有这么多节点");
@@ -44,8 +56,6 @@ public class LastNthListNode {
             last = last.next;
         }
         System.out.println(first.val);
-//        ListNode.printListNode(head);
         return first;
     }
-
 }
