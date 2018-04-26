@@ -6,7 +6,10 @@ import java.util.*;
  * created by zsj in 11:19 2018/4/26
  * description:给定一个整数数组和一个整数 k, 你需要在数组里找到不同的 k-diff 数对。
  * 这里将 k-diff 数对定义为一个整数对 (i, j), 其中 i 和 j 都是数组中的数字，且两数之差的绝对值是 k.
- * 思路：将每个数加入map的key中，map的value是i,如果有重复的话会覆盖，然后将i的值覆盖
+ * 思路：将每个数加入map的key中，map的value是i,如果有重复的话会覆盖，然后将i的值覆盖.对于数组中每个数，判断nums[i]+k
+ * 是否是map中的key值，这时候需要加入对value的判断，如果map的value 被重写就不会相等，所以可以用来判定k=0的情况。
+ * 然后将nums[i]和nums[i]+k加入linkedList，res++;然后删除map(nums[i]+k)避免它再次做另一个数的右半部分。
+ *
  **/
 public class Lee532 {
 
