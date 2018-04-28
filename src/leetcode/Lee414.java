@@ -3,6 +3,7 @@ package leetcode;
 /**
  * created by zsj in 23:12 2018/4/27
  * description:给定一个非空数组，返回此数组中第三大的数。如果不存在，则返回数组中最大的数。要求算法时间复杂度必须是O(n)。
+ * 思路：O(N),每次判断大小，是否比最大的大，是否在first和second之间，是否在third和second之间，每个部分决策不一样
  **/
 public class Lee414 {
 
