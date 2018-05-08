@@ -44,7 +44,6 @@ public class Two51 {
     }
 
     public static void getRes(char[] chars) {
-        char[] tmp = new char[chars.length];
         int numR = 0, numG = 0, numB = 0;
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == 'B') {
@@ -59,15 +58,14 @@ public class Two51 {
         }
         int i = 0;
         while (numR-->0){
-            tmp[i++] = 'R';
+            chars[i++] = 'R';
         }
         while (numG-- >0){
-            tmp[i++] = 'G';
+            chars[i++] = 'G';
         }
         while (numB-->0){
-            tmp[i++] = 'B';
+            chars[i++] = 'B';
         }
-        chars = tmp;
         StringBuffer sb = new StringBuffer();
         for (char c : chars) {
             sb.append(c);
