@@ -8,7 +8,7 @@ public class Lee172 {
 
     public static void main(String[] args) {
         Lee172 lee172 = new Lee172();
-        System.out.println(lee172.jiec(25));
+        System.out.println(lee172.trailingZeroes(30));
     }
 
     public Long jiec(int n) {
