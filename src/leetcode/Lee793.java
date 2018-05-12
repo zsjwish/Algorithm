@@ -38,10 +38,15 @@ public class Lee793 {
     }
     //获取某个数阶乘末尾为0 的个数
     public int getK(int k) {
+        int res = 0;
         if (k / 5 <= 0) {
             return 0;
         }
-        return k / 5 + getK(k / 5);
+        while (k / 5 > 0) {
+            res += k/5;
+            k /= 5;
+        }
+        return res;
     }
     public int preimageSizeFZF1(int K) {
         int[] res = new int[15464691];
