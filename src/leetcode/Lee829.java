@@ -28,7 +28,7 @@ public class Lee829 {
         int start = 1;
         int end = 1;
         int sum = start;
-gitad        int res = 0;
+        int res = 0;
         while (end <= N && start <= end){
             if (sum == N) {
                 res++;
