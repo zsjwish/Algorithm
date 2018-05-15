@@ -25,6 +25,19 @@ public class Lee829 {
     }
 
     private int consecutiveNumbersSum(int N) {
+        int devident = N, devisor = 1;
+        int res = 0;
+        while (devident >= devisor) {
+            if (devident % devisor == 0) {
+                res++;
+            }
+            devident -= devisor;
+            devisor++;
+        }
+        return res;
+    }
+
+    private int consecutiveNumbersSum3(int N) {
         int start = 1;
         int end = 1;
         int sum = start;
