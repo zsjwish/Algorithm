@@ -17,29 +17,35 @@ public class AtomicIntegerTest extends Thread{
 //        for (int i = 0; i < 100; i++) {
 //            System.out.println(Thread.currentThread().getName() + " " + i);
 //            if (i==20) {
-
-//                new Thread(new AtomicIntegerTest(),"新线程1").start();
-//                new Thread(new AtomicIntegerTest(),"新线程2").start();
+                AtomicIntegerTest atomicIntegerTest = new AtomicIntegerTest();
+                new Thread(atomicIntegerTest,"新线程1").start();
+                new Thread(atomicIntegerTest,"新线程2").start();
 //            }
 //        }
-        HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(1,4);
-        System.out.println(map.put(2,5));
-        System.out.println(map);
+//        HashMap<Integer, Integer> map = new HashMap<>();
+//        map.put(1,4);
+//        System.out.println(map.put(2,5));
+//        System.out.println(map);
 
     }
 
-    private void iCountAdd() {
-        for (int i = 0; i < 10000; i++) {
+    private synchronized int iCountAdd() {
+//        for (int i = 0; i < 10000; i++) {
             iCount++;
-        }
+//        }
+        return iCount;
     }
 
 
     @Override
     public void run() {
-        for (;num.get()<1000;num.getAndIncrement()) {
-            System.out.println(Thread.currentThread().getName() + "  " + num.get());
+        for (int i = 0; i < 10000; i++) {
+            System.out.println(Thread.currentThread().getName() + "  " + iCountAdd());
         }
+    }
+    public int add(AtomicInteger num) {
+        num.getAndIncrement();
+//        System.out.println(num.get());
+        return num.get();
     }
 }
