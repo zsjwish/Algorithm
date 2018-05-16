@@ -1,5 +1,6 @@
 package books;
 
+import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -17,10 +18,14 @@ public class AtomicIntegerTest extends Thread{
 //            System.out.println(Thread.currentThread().getName() + " " + i);
 //            if (i==20) {
 
-                new Thread(new AtomicIntegerTest(),"新线程1").start();
-                new Thread(new AtomicIntegerTest(),"新线程2").start();
+//                new Thread(new AtomicIntegerTest(),"新线程1").start();
+//                new Thread(new AtomicIntegerTest(),"新线程2").start();
 //            }
 //        }
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1,4);
+        System.out.println(map.put(2,5));
+        System.out.println(map);
 
     }
 
