@@ -19,7 +19,7 @@ public class Lee811 {
         String[] strings = new String[]{"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
         lee811.subdomainVisits(strings);
         String[] tmp = strings[0].split("\\.");
-        System.out.println(Arrays.toString(tmp));
+//        System.out.println(Arrays.toString(tmp));
     }
 
     public List<String> subdomainVisits(String[] cpdomains) {
