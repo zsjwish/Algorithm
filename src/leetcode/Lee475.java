@@ -17,18 +17,16 @@ package leetcode;
 public class Lee475 {
     public static void main(String[] args) {
         Lee475 lee475 = new Lee475();
-        System.out.println(lee475.findRadius(new int[]{1,5},new int[]{2}));
+        System.out.println(lee475.findRadius(new int[]{1,2,3},new int[]{2}));
     }
     public int findRadius(int[] houses, int[] heaters) {
         int max = 0;
         for (int i = 0; i < heaters.length-1; i++) {
             max = Math.max(max, heaters[i+1] - heaters[i]);
         }
-        int max1= heaters[0] - houses[0];
-        int max2= heaters[0] - houses[houses.length - 1];
-        int max3= heaters[heaters.length - 1] - houses[houses.length - 1];
-        int max4= heaters[heaters.length - 1] - houses[0];
-
-        return Math.max(max/2, Math.min(Math.min(Math.min(max1, max2),max3),max4));
+        int max1 = Math.max(heaters[0] - houses[0], houses[houses.length - 1] - heaters[0]);
+        int max2 = Math.max(heaters[heaters.length - 1] - houses[0], houses[houses.length - 1] - heaters[heaters.length-1]);
+        int max3 = Math.min(max1,max2);
+        return Math.min(max/2, max3);
     }
 }
