@@ -1,6 +1,7 @@
 package interview;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
@@ -25,5 +26,6 @@ public class Keep2 {
         }
         System.out.println(Arrays.deepToString(m));
         System.out.println(m[5][10]);
+
     }
 }
