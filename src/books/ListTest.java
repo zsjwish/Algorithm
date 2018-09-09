@@ -35,11 +35,26 @@ public class ListTest {
 //        ArrayList arraylist = new ArrayList();
 //        arraylist.ensureCapacity(20);
 //        System.out.println(arraylist.size());
-
-        List list = Arrays.asList(1,2,3);
-        System.out.println(list.size());
-        list.set(1,100);
-        System.out.println(list);
-        list.add(0);
+//
+//        List list = Arrays.asList(1,2,3);
+//        System.out.println(list.size());
+//        list.set(1,100);
+//        System.out.println(list);
+//        list.add(0);
+        List<List<Integer>> listList = new ArrayList<>(5);
+        for (int i = 0; i < 5; i++) {
+            listList.add(new ArrayList<>());
+        }
+        for (int i = 0; i < 5; i++) {
+            System.out.println(listList.get(i).contains(1));
+            for (int j = 0; j < 10; j++) {
+                listList.get(i).add(j);
+            }
+        }
+        System.out.println(listList.get(0));
+        System.out.println(listList.get(1));
+        System.out.println(listList.get(2));
+        System.out.println(listList.get(3));
+        System.out.println(listList.get(4));
     }
 }
