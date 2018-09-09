@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.Arrays;
+
 /**
  * created by zsj in 21:53 2018/5/24
  * description:
@@ -18,15 +20,21 @@ public class Lee475 {
     public static void main(String[] args) {
         Lee475 lee475 = new Lee475();
         System.out.println(lee475.findRadius(new int[]{1,2,3},new int[]{2}));
+        System.out.println(lee475.findRadius(new int[]{1,2,3,5,15},new int[]{2,30}));
     }
     public int findRadius(int[] houses, int[] heaters) {
-        int max = 0;
-        for (int i = 0; i < heaters.length-1; i++) {
-            max = Math.max(max, heaters[i+1] - heaters[i]);
+        Arrays.sort(houses);
+        Arrays.sort(heaters);
+        int n = houses.length;
+        int m = heaters.length;
+        int j = 0;
+        int minLen = 0;
+        for (int i = 0; i < n; i++) {
+            while (j < m-1 && Math.abs(houses[i] - heaters[j]) >= Math.abs(houses[i] - heaters[j+1])) {
+                j++;
+            }
+            minLen = Math.max(minLen, Math.abs(houses[i] - heaters[j]));
         }
-        int max1 = Math.max(heaters[0] - houses[0], houses[houses.length - 1] - heaters[0]);
-        int max2 = Math.max(heaters[heaters.length - 1] - houses[0], houses[houses.length - 1] - heaters[heaters.length-1]);
-        int max3 = Math.min(max1,max2);
-        return Math.min(max/2, max3);
+        return minLen;
     }
 }
