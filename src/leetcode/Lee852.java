@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * created by zsj in 11:10 2018/9/9
  * description:我们把符合下列属性的数组 A 称作山脉：
