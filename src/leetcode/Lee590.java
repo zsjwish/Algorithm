@@ -18,6 +18,6 @@ public class Lee590 {
 
     public static List<Integer> postorder(Node root) {
         List<Integer> list = new LinkedList<>();
-
+        return null;
     }
 }
