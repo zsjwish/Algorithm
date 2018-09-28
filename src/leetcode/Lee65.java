@@ -16,34 +16,80 @@ import java.util.Arrays;
 public class Lee65 {
 
     public static void main(String[] args) {
-        System.out.println(isInteger("1236"));
-        System.out.println(isInteger("1 23"));
-        System.out.println(isDecimal("1.23"));
-        System.out.println(isDecimal("1.23e-10.2"));
+//        System.out.println(isE("3."));
+//        System.out.println(isE(".2"));
+//        System.out.println(isE("0.."));
+        System.out.println(isNumber("4e1.e"));
     }
 
     public static boolean isNumber(String s) {
+        s = s.trim();
         return isE(s);
     }
 
     public static boolean isE(String s) {
+        if (s == null || s.length() == 0) {
+            return false;
+        }
+        int enums = 0;
+        for (char tmp : s.toCharArray()) {
+            if (tmp == 'e' || tmp == 'E') {
+                enums++;
+            }
+            if (enums > 1) {
+                return false;
+            }
+        }
         if (s.contains("e") || s.contains("E")) {
             String[] strings = s.split("e|E");
             if (strings.length != 2) {
                 return false;
             }
-            return isDecimal(strings[0])&&isDecimal(strings[1]);
+            //题目说e指数不能为小数
+//            return isSignDecimal(strings[0])&&isSignDecimal(strings[1]);
+            return isSignDecimal(strings[0])&&isSignInteger(strings[1]);
+        }
+        return isSignDecimal(s);
+    }
+
+
+    public static boolean isSignDecimal(String s) {
+        if (s == null || s.length() == 0) {
+            return false;
+        }
+        if (s.charAt(0) == '-' || s.charAt(0) == '+') {
+            return isDecimal(s.substring(1));
         }
         return isDecimal(s);
     }
 
     public static boolean isDecimal(String s) {
-        if (s.contains(".")) {
-            String[] strings = s.split("\\.");
-            if (strings.length != 2) {
+        if (s == null || s.length() == 0) {
+            return false;
+        }
+        int point = 0;
+        for (char tmp : s.toCharArray()) {
+            if (tmp == '.') {
+                point++;
+            }
+            if (point > 1) {
                 return false;
             }
-            return isSignInteger(strings[0]) && isSignInteger(strings[1]);
+        }
+        if (s.contains(".")) {
+            String[] strings = s.split("\\.");
+            int length = strings.length;
+            if (strings.length == 1) {
+                return isSignInteger(strings[0]);
+            }
+            if (length != 2) {
+                return false;
+            }
+            if (strings[0].length() == 0) {
+                return isInteger(strings[1]);
+            }
+
+            return isSignInteger(strings[0]) && isInteger(strings[1]);
         }
         return isSignInteger(s);
     }
@@ -63,8 +109,8 @@ public class Lee65 {
         if (s == null || s.length() == 0) {
             return false;
         }
-        if (s.charAt(0) == '0') {
-            return false;
+        if (s.length() == 1 && s.charAt(0) == '0') {
+            return true;
         }
         int i = 0;
         while (i < s.length() && Character.isDigit(s.charAt(i))) {
