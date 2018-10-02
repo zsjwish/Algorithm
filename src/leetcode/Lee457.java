@@ -1,5 +1,8 @@
 package leetcode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * created by zsj in 17:10 2018/10/2
  * description:给定一组含有正整数和负整数的数组。如果某个索引中的 n 是正数的，则向前移动 n 个索引。相反，如果是负数(-n)，则向后移动 n 个索引。
@@ -15,9 +18,6 @@ public class Lee457 {
     }
 
     public static boolean circularArrayLoop(int[] nums) {
-        int[] base = new int[];
-        for (int i = 0; i < nums; i++) {
-
-        }
+        return false;
     }
 }
